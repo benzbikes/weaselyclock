@@ -1,0 +1,57 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+pyscript:
+    allow_all_imports: true
+    hass_is_global: true
+
+logger:
+    default: info
+    logs:
+      homeassistant.components.shell_command: debug
+
+shell_command:
+    servo_test: 'python3 /home/homeassistant/.homeassistant/pyscript/servo_test.py'
+    servo_arg: python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}
+    servo_restart: python3 /home/homeassistant/.homeassistant/pyscript/servo_restart.py
+    upnp_port_forward: /home/homeassistant/.homeassistant/pyscript/upnpPortForward.sh
+
+    aaron_home: 'python3 /home/homeassistant/.homeassistant/pyscript/aaron_home.py'
+    aaron_work: 'python3 /home/homeassistant/.homeassistant/pyscript/aaron_work.py'
+    aaron_school: 'python3 /home/homeassistant/.homeassistant/pyscript/aaron_school.py'
+    aaron_away: 'python3 /home/homeassistant/.homeassistant/pyscript/aaron_away.py'
+    aaron_grand: 'python3 /home/homeassistant/.homeassistant/pyscript/aaron_grand.py'
+
+    jennifer_home: 'python3 /home/homeassistant/.homeassistant/pyscript/jennifer_home.py'
+    jennifer_work: 'python3 /home/homeassistant/.homeassistant/pyscript/jennifer_work.py'
+    jennifer_school: 'python3 /home/homeassistant/.homeassistant/pyscript/jennifer_school.py'
+    jennifer_away: 'python3 /home/homeassistant/.homeassistant/pyscript/jennifer_away.py'
+    jennifer_grand: 'python3 /home/homeassistant/.homeassistant/pyscript/jennifer_grand.py'
+
+    savanna_home: 'python3 /home/homeassistant/.homeassistant/pyscript/savanna_home.py'
+    savanna_work: 'python3 /home/homeassistant/.homeassistant/pyscript/savanna_work.py'
+    savanna_school: 'python3 /home/homeassistant/.homeassistant/pyscript/savanna_school.py'
+    savanna_away: 'python3 /home/homeassistant/.homeassistant/pyscript/savanna_away.py'
+    savanna_grand: 'python3 /home/homeassistant/.homeassistant/pyscript/savanna_grand.py'
+
+    makayla_home: 'python3 /home/homeassistant/.homeassistant/pyscript/makayla_home.py'
+    makayla_work: 'python3 /home/homeassistant/.homeassistant/pyscript/makayla_work.py'
+    makayla_school: 'python3 /home/homeassistant/.homeassistant/pyscript/makayla_school.py'
+    makayla_away: 'python3 /home/homeassistant/.homeassistant/pyscript/makayla_away.py'
+    makayla_grand: 'python3 /home/homeassistant/.homeassistant/pyscript/makayla_grand.py'
+
+    presleigh_home: 'python3 /home/homeassistant/.homeassistant/pyscript/presleigh_home.py'
+    presleigh_work: 'python3 /home/homeassistant/.homeassistant/pyscript/presleigh_work.py'
+    presleigh_school: 'python3 /home/homeassistant/.homeassistant/pyscript/presleigh_school.py'
+    presleigh_away: 'python3 /home/homeassistant/.homeassistant/pyscript/presleigh_away.py'
+    presleigh_grand: 'python3 /home/homeassistant/.homeassistant/pyscript/presleigh_grand.py'
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml

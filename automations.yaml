@@ -1,0 +1,163 @@
+- id: '1639898078212'
+  alias: Cycle hands at startup
+  description: ''
+  trigger:
+  - platform: homeassistant
+    event: start
+  condition: []
+  action:
+  - service: shell_command.servo_restart
+  - service: shell_command.servo_arg
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 5
+      milliseconds: 0
+  - service: shell_command.servo_arg
+    data:
+      chan: aaron
+      pos: '{{ states.person.aaron.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: jennifer
+      pos: '{{ states.person.jennifer.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: savanna
+      pos: '{{ states.person.savanna.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: makayla
+      pos: '{{ states.person.makayla.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: presleigh
+      pos: '{{ states.person.presleigh.state }}'
+  mode: queued
+  max: 10
+- id: '1639946734330'
+  alias: Test Multi Arg
+  description: ''
+  trigger:
+  - platform: webhook
+    webhook_id: ''
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      pos: not_home
+      chan: savanna
+  mode: single
+- id: '1639970805198'
+  alias: Update everyones hands
+  description: ''
+  trigger:
+  - platform: time_pattern
+    minutes: /5
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      chan: aaron
+      pos: '{{ states.person.aaron.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: jennifer
+      pos: '{{ states.person.jennifer.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: savanna
+      pos: '{{ states.person.savanna.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: makayla
+      pos: '{{ states.person.makayla.state }}'
+  - service: shell_command.servo_arg
+    data:
+      chan: presleigh
+      pos: '{{ states.person.presleigh.state }}'
+  mode: queued
+  max: 10
+- id: '1640032982518'
+  alias: Aaron location
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: person.aaron
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      chan: aaron
+      pos: '{{ states.person.aaron.state }}'
+  mode: queued
+  max: 10
+- id: '1640033189264'
+  alias: Jennifer location
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: person.jennifer
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      chan: jennifer
+      pos: '{{ states.person.jennifer.state }}'
+  mode: queued
+  max: 10
+- id: '1640033227886'
+  alias: Savanna location
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: person.savanna
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      chan: savanna
+      pos: '{{ states.person.savanna.state }}'
+  mode: queued
+  max: 10
+- id: '1640033262466'
+  alias: MaKayla location
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: person.makayla
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      chan: makayla
+      pos: '{{ states.person.makayla.state }}'
+  mode: queued
+  max: 10
+- id: '1640033303624'
+  alias: Presleigh location
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: person.presleigh
+  condition: []
+  action:
+  - service: shell_command.servo_arg
+    data:
+      chan: presleigh
+      pos: '{{ states.person.presleigh.state }}'
+  mode: queued
+  max: 10
+- id: '1640141346573'
+  alias: Set upnp port forwarding
+  description: ''
+  trigger:
+  - platform: homeassistant
+    event: start
+  - platform: time_pattern
+    hours: /1
+  condition: []
+  action:
+  - service: shell_command.upnp_port_forward
+  mode: queued
+  max: 10
