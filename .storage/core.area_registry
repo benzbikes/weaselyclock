@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Living Room",
+                "id": "living_room",
+                "picture": null
+            },
+            {
+                "name": "Kitchen",
+                "id": "kitchen",
+                "picture": null
+            },
+            {
+                "name": "Bedroom",
+                "id": "bedroom",
+                "picture": null
+            },
+            {
+                "name": "Bathroom facing the toilet",
+                "id": "bathroom_facing_the_toilet",
+                "picture": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,1490 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.jake",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "jake",
+                    "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                    "friendly_name": "Jake"
+                },
+                "last_changed": "2022-01-23T02:45:09.825888+00:00",
+                "last_updated": "2022-01-23T02:45:16.160536+00:00",
+                "context": {
+                    "id": "2548ff48eb2cbd50e86c88352050717f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.aaron",
+                "state": "not_home",
+                "attributes": {
+                    "editable": false,
+                    "id": "aaron",
+                    "latitude": 30.43487548828125,
+                    "longitude": -89.09533715782099,
+                    "gps_accuracy": 26,
+                    "source": "device_tracker.aaron_iphone",
+                    "user_id": "45a2f3c6765340e8a3a066fda04d7e49",
+                    "friendly_name": "Aaron"
+                },
+                "last_changed": "2022-01-23T18:52:48.793488+00:00",
+                "last_updated": "2022-01-23T21:40:40.256049+00:00",
+                "context": {
+                    "id": "b2514c631ef3a178162830c21d6e3844",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.jennifer",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "jennifer",
+                    "user_id": "b90b7205234649f29904515e80304047",
+                    "friendly_name": "Jennifer"
+                },
+                "last_changed": "2022-01-23T02:45:09.826909+00:00",
+                "last_updated": "2022-01-23T02:45:16.161344+00:00",
+                "context": {
+                    "id": "903c367431fdd49a5fa07649ced0ed40",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.savanna",
+                "state": "not_home",
+                "attributes": {
+                    "editable": false,
+                    "id": "savanna",
+                    "latitude": 30.43780517578125,
+                    "longitude": -89.09982297630678,
+                    "gps_accuracy": 5,
+                    "source": "device_tracker.iphone",
+                    "friendly_name": "Savanna"
+                },
+                "last_changed": "2022-01-23T18:52:23.702424+00:00",
+                "last_updated": "2022-01-23T21:45:15.546312+00:00",
+                "context": {
+                    "id": "36964dd7f674b60e192865636d9f4460",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.makayla",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "makayla",
+                    "friendly_name": "MaKayla"
+                },
+                "last_changed": "2022-01-23T02:45:09.827724+00:00",
+                "last_updated": "2022-01-23T02:45:16.161929+00:00",
+                "context": {
+                    "id": "73ac2a6a8d50b9325c2a6a1e10201d83",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.presleigh",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "presleigh",
+                    "friendly_name": "Presleigh"
+                },
+                "last_changed": "2022-01-23T02:45:09.828126+00:00",
+                "last_updated": "2022-01-23T02:45:16.162162+00:00",
+                "context": {
+                    "id": "fe66490a7e935e8c4ad111e223b5501c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.cycle_hands_at_startup",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-01-23T02:45:16.262074+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1639898078212",
+                    "friendly_name": "Cycle hands at startup"
+                },
+                "last_changed": "2022-01-23T02:45:14.867898+00:00",
+                "last_updated": "2022-01-23T02:45:30.754877+00:00",
+                "context": {
+                    "id": "bd3c7252efff6d8e3a410b3bce762311",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.test_multi_arg",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2021-12-23T00:05:33.503431+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1639946734330",
+                    "friendly_name": "Test Multi Arg"
+                },
+                "last_changed": "2022-01-23T02:45:14.868714+00:00",
+                "last_updated": "2022-01-23T02:45:14.868714+00:00",
+                "context": {
+                    "id": "4f5ad205a09f5cbeb0a3a6816906990f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_hands",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-01-23T21:45:00.004465+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1639970805198",
+                    "friendly_name": "Update everyones hands"
+                },
+                "last_changed": "2022-01-23T02:45:14.869347+00:00",
+                "last_updated": "2022-01-23T21:45:00.927200+00:00",
+                "context": {
+                    "id": "e2551564a689db653c4423f67b6c5dc0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_aaron",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-01-23T21:40:40.262742+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1640032982518",
+                    "friendly_name": "Aaron location"
+                },
+                "last_changed": "2022-01-23T02:45:14.870058+00:00",
+                "last_updated": "2022-01-23T21:40:40.516157+00:00",
+                "context": {
+                    "id": "9bae72014ad761f172743cb5ec42561b",
+                    "parent_id": "b2514c631ef3a178162830c21d6e3844",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_jennifer",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-25T04:08:13.070139+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1640033189264",
+                    "friendly_name": "Jennifer location"
+                },
+                "last_changed": "2022-01-23T02:45:14.870736+00:00",
+                "last_updated": "2022-01-23T02:45:14.870736+00:00",
+                "context": {
+                    "id": "4ae6ff889dffd8ea79b7d41bf61e272c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_savanna",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-01-23T21:45:15.553203+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1640033227886",
+                    "friendly_name": "Savanna location"
+                },
+                "last_changed": "2022-01-23T02:45:14.871405+00:00",
+                "last_updated": "2022-01-23T21:45:15.768119+00:00",
+                "context": {
+                    "id": "34e08438c6f03fe813b40c6a88fdd7bd",
+                    "parent_id": "36964dd7f674b60e192865636d9f4460",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_makayla",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-24T07:27:40.005376+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1640033262466",
+                    "friendly_name": "MaKayla location"
+                },
+                "last_changed": "2022-01-23T02:45:14.873676+00:00",
+                "last_updated": "2022-01-23T02:45:14.873676+00:00",
+                "context": {
+                    "id": "9b8bd6c3e964a2270ae8216f61979bc0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_presleigh",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-12-24T17:35:17.057121+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1640033303624",
+                    "friendly_name": "Presleigh location"
+                },
+                "last_changed": "2022-01-23T02:45:14.874496+00:00",
+                "last_updated": "2022-01-23T02:45:14.874496+00:00",
+                "context": {
+                    "id": "ac30de8c0aff42578ae9cde10deacbde",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.set_upnp_port_forwarding",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-01-23T21:00:00.005507+00:00",
+                    "mode": "queued",
+                    "current": 0,
+                    "max": 10,
+                    "id": "1640141346573",
+                    "friendly_name": "Set upnp port forwarding"
+                },
+                "last_changed": "2022-01-23T02:45:14.875178+00:00",
+                "last_updated": "2022-01-23T21:00:00.123569+00:00",
+                "context": {
+                    "id": "00505fd7a6a92e0e782631467a3869c1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.hd1905_battery_level",
+                "state": "62",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "HD1905 Battery Level",
+                    "icon": "mdi:battery-60",
+                    "device_class": "battery"
+                },
+                "last_changed": "2022-01-23T21:30:35.133548+00:00",
+                "last_updated": "2022-01-23T21:30:35.133548+00:00",
+                "context": {
+                    "id": "cdadee562cc067ababf10ed3c265224d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.hd1905_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "friendly_name": "HD1905 Battery State",
+                    "icon": "mdi:battery-minus"
+                },
+                "last_changed": "2022-01-23T17:23:11.662453+00:00",
+                "last_updated": "2022-01-23T17:23:11.662453+00:00",
+                "context": {
+                    "id": "ec91aa4985f8cd1dcd5cab9811146c24",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.hd1905_charger_type",
+                "state": "none",
+                "attributes": {
+                    "friendly_name": "HD1905 Charger Type",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2022-01-23T17:23:11.665689+00:00",
+                "last_updated": "2022-01-23T17:23:11.665689+00:00",
+                "context": {
+                    "id": "dde36257207f0b6bdda6d8bb347dbf55",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.hd1905_battery_health",
+                "state": "good",
+                "attributes": {
+                    "friendly_name": "HD1905 Battery Health",
+                    "icon": "mdi:battery-heart-variant"
+                },
+                "last_changed": "2022-01-23T02:45:15.396712+00:00",
+                "last_updated": "2022-01-23T02:45:15.396712+00:00",
+                "context": {
+                    "id": "798196807f8de298cdaef4a999451dfa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.hd1905_battery_temperature",
+                "state": "89.2",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "\u00b0F",
+                    "friendly_name": "HD1905 Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2022-01-23T21:30:35.136004+00:00",
+                "last_updated": "2022-01-23T21:30:35.136004+00:00",
+                "context": {
+                    "id": "6bdda6738c52d7cdd234ebe7bc8dd41c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.hd1905_is_charging",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "HD1905 Is Charging",
+                    "icon": "mdi:power-plug-off",
+                    "device_class": "plug"
+                },
+                "last_changed": "2022-01-23T17:23:11.664246+00:00",
+                "last_updated": "2022-01-23T17:23:11.664246+00:00",
+                "context": {
+                    "id": "8ccb7d009180b8a4f023fe85c34393f8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_battery_level",
+                "state": "65",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "iPhone Battery Level",
+                    "icon": "mdi:battery-60",
+                    "device_class": "battery"
+                },
+                "last_changed": "2022-01-23T21:45:15.974945+00:00",
+                "last_updated": "2022-01-23T21:45:15.974945+00:00",
+                "context": {
+                    "id": "bf6937d30c72e77fe0d2c4148af61db8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "iPhone Battery State",
+                    "icon": "mdi:battery-60"
+                },
+                "last_changed": "2022-01-23T02:45:15.400421+00:00",
+                "last_updated": "2022-01-23T21:40:15.323164+00:00",
+                "context": {
+                    "id": "9b68c4520a2e8c1a9c2bb48cc3d2e52a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_sim_1",
+                "state": "C Spire",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "C Spire",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "311",
+                    "Mobile Network Code": "230",
+                    "friendly_name": "iPhone SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2022-01-23T02:45:15.400938+00:00",
+                "last_updated": "2022-01-23T18:57:05.895004+00:00",
+                "context": {
+                    "id": "d7d673ee7f502a24760b86ff4b5ab6df",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_ssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "iPhone SSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2022-01-23T18:52:33.696598+00:00",
+                "last_updated": "2022-01-23T18:52:33.696598+00:00",
+                "context": {
+                    "id": "3574c7cdc554adfce3adb7167ea4c860",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_bssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "iPhone BSSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2022-01-23T18:52:33.698112+00:00",
+                "last_updated": "2022-01-23T18:52:33.698112+00:00",
+                "context": {
+                    "id": "ac23fa1b71323152ebeb833dbfa7afd8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_storage",
+                "state": "25.10",
+                "attributes": {
+                    "Available": "13.67 GB",
+                    "Available (Important)": "26.32 GB",
+                    "Available (Opportunistic)": "16.05 GB",
+                    "Total": "63.93 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "iPhone Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2022-01-23T21:45:15.976749+00:00",
+                "last_updated": "2022-01-23T21:45:15.976749+00:00",
+                "context": {
+                    "id": "858e88b8676413f8c50b1d3c9b4bb1fe",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "friendly_name": "iPhone SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2022-01-23T02:45:15.402854+00:00",
+                "last_updated": "2022-01-23T02:45:15.402854+00:00",
+                "context": {
+                    "id": "4c147e49499c00317e58a1650d012a56",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_geocoded_location",
+                "state": "10431 Old Hwy 49\nGulfport MS 39503\nUnited States",
+                "attributes": {
+                    "Administrative Area": "MS",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "US",
+                    "Locality": "Gulfport",
+                    "Location": [
+                        30.43780517578125,
+                        -89.09982297630678
+                    ],
+                    "Name": "10431 Old Hwy 49",
+                    "Ocean": "N/A",
+                    "Postal Code": "39503",
+                    "Sub Administrative Area": "Harrison County",
+                    "Sub Locality": "N/A",
+                    "Sub Thoroughfare": "10431",
+                    "Thoroughfare": "Old Hwy 49",
+                    "Time Zone": "America/Chicago",
+                    "Zones": [],
+                    "friendly_name": "iPhone Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2022-01-23T21:45:15.981719+00:00",
+                "last_updated": "2022-01-23T21:45:15.981719+00:00",
+                "context": {
+                    "id": "448598d167b2353e50ef29cdb91c22b6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_connection_type",
+                "state": "Cellular",
+                "attributes": {
+                    "Cellular Technology": "4G",
+                    "friendly_name": "iPhone Connection Type",
+                    "icon": "mdi:signal"
+                },
+                "last_changed": "2022-01-23T18:52:33.699740+00:00",
+                "last_updated": "2022-01-23T18:57:05.893868+00:00",
+                "context": {
+                    "id": "6d723ec6f8bce5b12c4ce5878b0222be",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_last_update_trigger",
+                "state": "Significant Location Change",
+                "attributes": {
+                    "friendly_name": "iPhone Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2022-01-23T18:57:05.979848+00:00",
+                "last_updated": "2022-01-23T18:57:05.979848+00:00",
+                "context": {
+                    "id": "3f842dcb8097ad291c607c205c76bdd3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "friendly_name": "iPhone Activity",
+                    "icon": "mdi:human-male"
+                },
+                "last_changed": "2022-01-23T21:45:15.970125+00:00",
+                "last_updated": "2022-01-23T21:45:15.970125+00:00",
+                "context": {
+                    "id": "718691176bce94fa52420a8cad9daa5d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "iPhone Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2022-01-23T19:45:35.354359+00:00",
+                "last_updated": "2022-01-23T19:45:35.354359+00:00",
+                "context": {
+                    "id": "d2dd5db7ea88849f8b17fd6c488aeb46",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_floors_descended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "iPhone Floors Descended",
+                    "icon": "mdi:stairs-down"
+                },
+                "last_changed": "2022-01-23T02:45:15.406426+00:00",
+                "last_updated": "2022-01-23T02:45:15.406426+00:00",
+                "context": {
+                    "id": "a109d843382571565ea21672fd6b24e0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_distance",
+                "state": "1898",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "iPhone Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2022-01-23T21:40:15.318125+00:00",
+                "last_updated": "2022-01-23T21:40:15.318125+00:00",
+                "context": {
+                    "id": "649cecf7995fcf0e91fa3b4046d253f1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_floors_ascended",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "iPhone Floors Ascended",
+                    "icon": "mdi:stairs-up"
+                },
+                "last_changed": "2022-01-23T18:57:05.884470+00:00",
+                "last_updated": "2022-01-23T18:57:05.884470+00:00",
+                "context": {
+                    "id": "be91798b8fa34314d82e94a137feb273",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.iphone_steps",
+                "state": "3072",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "iPhone Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2022-01-23T21:40:15.320715+00:00",
+                "last_updated": "2022-01-23T21:40:15.320715+00:00",
+                "context": {
+                    "id": "9e1a13401b5d6f222c8b8222e5d88eb6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.iphone_focus",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "iPhone Focus",
+                    "icon": "mdi:moon-waning-crescent"
+                },
+                "last_changed": "2022-01-23T02:45:15.408408+00:00",
+                "last_updated": "2022-01-23T02:45:15.408408+00:00",
+                "context": {
+                    "id": "beff539ff145da0a0efae61d1d339543",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "Aaron iPhone Battery State",
+                    "icon": "mdi:battery-90"
+                },
+                "last_changed": "2022-01-23T02:45:15.409071+00:00",
+                "last_updated": "2022-01-23T19:02:45.855675+00:00",
+                "context": {
+                    "id": "1c97fc1bb3e4397769620f290b3fcd13",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_storage",
+                "state": "33.44",
+                "attributes": {
+                    "Available": "16.79 GB",
+                    "Available (Important)": "22.64 GB",
+                    "Available (Opportunistic)": "21.36 GB",
+                    "Total": "63.88 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "Aaron iPhone Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2022-01-23T21:40:40.497015+00:00",
+                "last_updated": "2022-01-23T21:40:40.497015+00:00",
+                "context": {
+                    "id": "cfbc7f893f633257891a5348c66786e0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_battery_level",
+                "state": "94",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Aaron iPhone Battery Level",
+                    "icon": "mdi:battery-90",
+                    "device_class": "battery"
+                },
+                "last_changed": "2022-01-23T21:40:40.495292+00:00",
+                "last_updated": "2022-01-23T21:40:40.495292+00:00",
+                "context": {
+                    "id": "60ff28f68e968dc0196c65a0fe038b03",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_ssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "Aaron iPhone SSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2022-01-23T18:52:53.318138+00:00",
+                "last_updated": "2022-01-23T18:52:53.318138+00:00",
+                "context": {
+                    "id": "7f6e14ac30b7d73d82509538123bce32",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_bssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "friendly_name": "Aaron iPhone BSSID",
+                    "icon": "mdi:wifi-off"
+                },
+                "last_changed": "2022-01-23T18:52:53.319526+00:00",
+                "last_updated": "2022-01-23T18:52:53.319526+00:00",
+                "context": {
+                    "id": "a1b7c2451f4fe882e35ca0cd7415783d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_connection_type",
+                "state": "Cellular",
+                "attributes": {
+                    "Cellular Technology": "4G",
+                    "friendly_name": "Aaron iPhone Connection Type",
+                    "icon": "mdi:signal"
+                },
+                "last_changed": "2022-01-23T18:52:53.320846+00:00",
+                "last_updated": "2022-01-23T18:52:53.320846+00:00",
+                "context": {
+                    "id": "17c69badcae229fce9830d0ef199c7b1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_sim_1",
+                "state": "C Spire",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "C Spire",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "311",
+                    "Mobile Network Code": "230",
+                    "friendly_name": "Aaron iPhone SIM 1",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2022-01-23T02:45:15.412050+00:00",
+                "last_updated": "2022-01-23T02:45:15.412050+00:00",
+                "context": {
+                    "id": "3515541a4198f0858f2b3d69697b8062",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "friendly_name": "Aaron iPhone SIM 2",
+                    "icon": "mdi:sim"
+                },
+                "last_changed": "2022-01-23T02:45:15.412522+00:00",
+                "last_updated": "2022-01-23T02:45:15.412522+00:00",
+                "context": {
+                    "id": "c1d582fc42f1b5965928e2ee9ce0dd46",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_geocoded_location",
+                "state": "US-49 N\nGulfport MS 39503\nUnited States",
+                "attributes": {
+                    "Administrative Area": "MS",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "US",
+                    "Locality": "Gulfport",
+                    "Location": [
+                        30.43487548828125,
+                        -89.09533715782099
+                    ],
+                    "Name": "US-49 N",
+                    "Ocean": "N/A",
+                    "Postal Code": "39503",
+                    "Sub Administrative Area": "Harrison County",
+                    "Sub Locality": "N/A",
+                    "Sub Thoroughfare": "N/A",
+                    "Thoroughfare": "US-49 N",
+                    "Time Zone": "America/Chicago",
+                    "Zones": [],
+                    "friendly_name": "Aaron iPhone Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2022-01-23T21:40:40.502096+00:00",
+                "last_updated": "2022-01-23T21:40:40.502096+00:00",
+                "context": {
+                    "id": "110bf7762b07b63aea59c0542561e4fa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_last_update_trigger",
+                "state": "Significant Location Change",
+                "attributes": {
+                    "friendly_name": "Aaron iPhone Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2022-01-23T18:53:39.614017+00:00",
+                "last_updated": "2022-01-23T18:53:39.614017+00:00",
+                "context": {
+                    "id": "cd4f84c9b28c511d1d22e245b49395a0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_activity",
+                "state": "Unknown",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ],
+                    "friendly_name": "Aaron iPhone Activity",
+                    "icon": "mdi:help-circle"
+                },
+                "last_changed": "2022-01-23T19:39:19.115482+00:00",
+                "last_updated": "2022-01-23T19:39:19.115482+00:00",
+                "context": {
+                    "id": "a90030bf4874bf66c95d82b5be502ceb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_floors_descended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "Aaron iPhone Floors Descended",
+                    "icon": "mdi:stairs-down"
+                },
+                "last_changed": "2022-01-23T02:45:15.415086+00:00",
+                "last_updated": "2022-01-23T02:45:15.415086+00:00",
+                "context": {
+                    "id": "80230e012539063296e531bf1fecd6b7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "Aaron iPhone Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2022-01-23T02:45:15.416345+00:00",
+                "last_updated": "2022-01-23T02:45:15.416345+00:00",
+                "context": {
+                    "id": "f255b814d050b09b727a350ad0a9e2f8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_distance",
+                "state": "2207",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "Aaron iPhone Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2022-01-23T21:40:40.490932+00:00",
+                "last_updated": "2022-01-23T21:40:40.490932+00:00",
+                "context": {
+                    "id": "c3d098e2b5e734ad0b3aeec19cc1e324",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_floors_ascended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "friendly_name": "Aaron iPhone Floors Ascended",
+                    "icon": "mdi:stairs-up"
+                },
+                "last_changed": "2022-01-23T02:45:15.417581+00:00",
+                "last_updated": "2022-01-23T02:45:15.417581+00:00",
+                "context": {
+                    "id": "e47fe25987b0dc964e74fc634fe1bdef",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aaron_iphone_steps",
+                "state": "2927",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "Aaron iPhone Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2022-01-23T21:40:40.493719+00:00",
+                "last_updated": "2022-01-23T21:40:40.493719+00:00",
+                "context": {
+                    "id": "ba7159e21a1eaa2bdff7d0122f31953e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_battery_level",
+                "state": "80",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "MaKayla\u2019s iPod touch Battery Level",
+                    "icon": "mdi:battery-80",
+                    "device_class": "battery"
+                },
+                "last_changed": "2022-01-23T05:57:05.039473+00:00",
+                "last_updated": "2022-01-23T05:57:05.039473+00:00",
+                "context": {
+                    "id": "03c5053b9bf8ea78a9863cb5f59f1761",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "friendly_name": "MaKayla\u2019s iPod touch Battery State",
+                    "icon": "mdi:battery-80"
+                },
+                "last_changed": "2022-01-23T02:45:15.419140+00:00",
+                "last_updated": "2022-01-23T05:38:26.122260+00:00",
+                "context": {
+                    "id": "37500adb628e60bfb341a65da01dbb78",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_storage",
+                "state": "6.17",
+                "attributes": {
+                    "Available": "1.65 GB",
+                    "Available (Important)": "3.26 GB",
+                    "Available (Opportunistic)": "1.97 GB",
+                    "Total": "31.98 GB",
+                    "unit_of_measurement": "% available",
+                    "friendly_name": "MaKayla\u2019s iPod touch Storage",
+                    "icon": "mdi:database"
+                },
+                "last_changed": "2022-01-23T05:57:05.041290+00:00",
+                "last_updated": "2022-01-23T05:57:05.041290+00:00",
+                "context": {
+                    "id": "35662ca50b94c3a183e73b7e0d0bf2e3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_ssid",
+                "state": "ARRIS-299D-5G",
+                "attributes": {
+                    "friendly_name": "MaKayla\u2019s iPod touch SSID",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2022-01-23T02:45:15.420140+00:00",
+                "last_updated": "2022-01-23T02:45:15.420140+00:00",
+                "context": {
+                    "id": "d0bba606f03e3fa8b302b21049c16954",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_bssid",
+                "state": "40:4c:77:e9:55:1b",
+                "attributes": {
+                    "friendly_name": "MaKayla\u2019s iPod touch BSSID",
+                    "icon": "mdi:wifi-star"
+                },
+                "last_changed": "2022-01-23T02:45:15.420622+00:00",
+                "last_updated": "2022-01-23T02:45:15.420622+00:00",
+                "context": {
+                    "id": "e6200c4479e3e4ab0b8b687e65f9094b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_geocoded_location",
+                "state": "15508 Mark West Rd\nGulfport MS 39503\nUnited States",
+                "attributes": {
+                    "Administrative Area": "MS",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "Inland Water": "N/A",
+                    "ISO Country Code": "US",
+                    "Locality": "Gulfport",
+                    "Location": [
+                        30.51416592796669,
+                        -89.13626996232627
+                    ],
+                    "Name": "15508 Mark West Rd",
+                    "Ocean": "N/A",
+                    "Postal Code": "39503",
+                    "Sub Administrative Area": "Harrison County",
+                    "Sub Locality": "N/A",
+                    "Sub Thoroughfare": "15508",
+                    "Thoroughfare": "Mark West Rd",
+                    "Time Zone": "America/Chicago",
+                    "Zones": [
+                        "Home"
+                    ],
+                    "friendly_name": "MaKayla\u2019s iPod touch Geocoded Location",
+                    "icon": "mdi:map"
+                },
+                "last_changed": "2022-01-23T02:45:15.421127+00:00",
+                "last_updated": "2022-01-23T02:45:15.421127+00:00",
+                "context": {
+                    "id": "40ca71b0cc2eebfb0363515b2220aaf4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "friendly_name": "MaKayla\u2019s iPod touch Connection Type",
+                    "icon": "mdi:wifi"
+                },
+                "last_changed": "2022-01-23T02:45:15.421604+00:00",
+                "last_updated": "2022-01-23T02:45:15.421604+00:00",
+                "context": {
+                    "id": "6928920093df5d4ceadbbec50a6271ea",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_last_update_trigger",
+                "state": "Launch",
+                "attributes": {
+                    "friendly_name": "MaKayla\u2019s iPod touch Last Update Trigger",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "last_changed": "2022-01-23T02:45:15.422084+00:00",
+                "last_updated": "2022-01-23T02:45:15.422084+00:00",
+                "context": {
+                    "id": "32d26bcd4a058b96eb9674b3a68a14c6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_activity",
+                "state": "Walking",
+                "attributes": {
+                    "Confidence": "Medium",
+                    "Types": [
+                        "Walking"
+                    ],
+                    "friendly_name": "MaKayla\u2019s iPod touch Activity",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2022-01-23T05:38:26.117701+00:00",
+                "last_updated": "2022-01-23T05:57:05.036099+00:00",
+                "context": {
+                    "id": "2399c3e248bc2de8ff6fa723ab39d9da",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_steps",
+                "state": "6792",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "friendly_name": "MaKayla\u2019s iPod touch Steps",
+                    "icon": "mdi:walk"
+                },
+                "last_changed": "2022-01-23T05:38:26.119747+00:00",
+                "last_updated": "2022-01-23T05:38:26.119747+00:00",
+                "context": {
+                    "id": "1d90cd9dbc019217550327cc8e7b8860",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_distance",
+                "state": "4134",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "friendly_name": "MaKayla\u2019s iPod touch Distance",
+                    "icon": "mdi:hiking"
+                },
+                "last_changed": "2022-01-23T05:38:26.118829+00:00",
+                "last_updated": "2022-01-23T05:38:26.118829+00:00",
+                "context": {
+                    "id": "b42eeb27dd17d6addb3d726fd2b2fd72",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.makaylas_ipod_touch_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "friendly_name": "MaKayla\u2019s iPod touch Average Active Pace",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2022-01-23T02:45:15.423972+00:00",
+                "last_updated": "2022-01-23T02:45:15.423972+00:00",
+                "context": {
+                    "id": "c21fa395e06daf9ff4a06cf63ef7f684",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.hd1905",
+                "state": "Grandparents",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 30.431794,
+                    "longitude": -88.9742968,
+                    "gps_accuracy": 27,
+                    "altitude": -20.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 1,
+                    "friendly_name": "HD1905"
+                },
+                "last_changed": "2022-01-23T21:23:52.130140+00:00",
+                "last_updated": "2022-01-23T21:23:52.130140+00:00",
+                "context": {
+                    "id": "22d9cb0624ba2d8dc4e7ffea6a007cbb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.iphone",
+                "state": "not_home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 65,
+                    "latitude": 30.43780517578125,
+                    "longitude": -89.09982297630678,
+                    "gps_accuracy": 5,
+                    "altitude": 10.616347816772759,
+                    "course": 135,
+                    "speed": 0,
+                    "vertical_accuracy": 2,
+                    "friendly_name": "iPhone"
+                },
+                "last_changed": "2022-01-23T21:45:15.545308+00:00",
+                "last_updated": "2022-01-23T21:45:15.545308+00:00",
+                "context": {
+                    "id": "771601a6d9f981e06ec1b3b2008b7389",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.aaron_iphone",
+                "state": "not_home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 94,
+                    "latitude": 30.43487548828125,
+                    "longitude": -89.09533715782099,
+                    "gps_accuracy": 26,
+                    "altitude": 7.021682477556169,
+                    "course": 322,
+                    "speed": 24,
+                    "vertical_accuracy": 26,
+                    "friendly_name": "Aaron iPhone"
+                },
+                "last_changed": "2022-01-23T21:40:40.255040+00:00",
+                "last_updated": "2022-01-23T21:40:40.255040+00:00",
+                "context": {
+                    "id": "44990580d8917d0e6a33bd7f8a8de1b9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.makaylas_ipod_touch",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 100,
+                    "latitude": 30.51416592796669,
+                    "longitude": -89.13626996232627,
+                    "gps_accuracy": 65,
+                    "altitude": 26.494428634643555,
+                    "vertical_accuracy": 21,
+                    "friendly_name": "MaKayla\u2019s iPod touch"
+                },
+                "last_changed": "2022-01-23T02:45:16.056456+00:00",
+                "last_updated": "2022-01-23T02:45:16.056456+00:00",
+                "context": {
+                    "id": "4f54cfe94a7368713b968fa85fac10d4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-01-23T21:45:16.249198+00:00"
+        }
+    ]
+}

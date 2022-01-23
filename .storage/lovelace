@@ -1,0 +1,137 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "person.aaron"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "person.jennifer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "person.savanna"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "person.makayla"
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "person.presleigh"
+                            ]
+                        },
+                        {
+                            "type": "map",
+                            "entities": [
+                                {
+                                    "entity": "person.stacy"
+                                },
+                                {
+                                    "entity": "person.jake"
+                                },
+                                {
+                                    "entity": "person.judy"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home",
+                            "show_forecast": false
+                        }
+                    ]
+                },
+                {
+                    "title": "All",
+                    "path": "all",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "device_tracker.hd1905",
+                                "sensor.hd1905_battery_health",
+                                "sensor.hd1905_battery_state",
+                                "sensor.hd1905_battery_temperature",
+                                "sensor.hd1905_charger_type",
+                                "binary_sensor.hd1905_is_charging",
+                                "zone.home",
+                                "remote.home",
+                                "person.jake",
+                                "person.judy",
+                                "device_tracker.mawmaw_juju",
+                                "sensor.mawmaw_juju_activity",
+                                "sensor.mawmaw_juju_average_active_pace",
+                                "sensor.mawmaw_juju_battery_state",
+                                "sensor.mawmaw_juju_bssid",
+                                "sensor.mawmaw_juju_connection_type",
+                                "sensor.mawmaw_juju_distance",
+                                "sensor.mawmaw_juju_floors_ascended",
+                                "sensor.mawmaw_juju_floors_descended",
+                                "sensor.mawmaw_juju_geocoded_location",
+                                "sensor.mawmaw_juju_last_update_trigger",
+                                "sensor.mawmaw_juju_sim_1",
+                                "sensor.mawmaw_juju_sim_2",
+                                "sensor.mawmaw_juju_ssid",
+                                "sensor.mawmaw_juju_steps",
+                                "sensor.mawmaw_juju_storage",
+                                "persistent_notification.config_entry_discovery",
+                                "device_tracker.pixel_2",
+                                "sensor.pixel_2_battery_health",
+                                "sensor.pixel_2_battery_state",
+                                "sensor.pixel_2_battery_temperature",
+                                "sensor.pixel_2_charger_type",
+                                "binary_sensor.pixel_2_is_charging",
+                                "input_number.servo_0",
+                                "zone.shopping",
+                                "person.stacy",
+                                "device_tracker.stacy_phone",
+                                "sun.sun",
+                                "binary_sensor.updater",
+                                "zone.work"
+                            ]
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home",
+                            "show_forecast": false
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.home"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.living_room"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

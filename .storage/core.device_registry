@@ -1,0 +1,218 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "30862a60d8c6b82acb25417b03145ea6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "63ed77ffa6e8a422046388e59c390f04",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "2e590a70f0f75ed48ccfe25ccbdf2476"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "51fe5b1e5e284a6b"
+                    ]
+                ],
+                "manufacturer": "OnePlus",
+                "model": "HD1905",
+                "name": "HD1905",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "bc0c620e6fdb8e9d5bdd78734c978a78",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "747af04459f224a0a49281e1b91d5af7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "6f5b4c70d875e12f"
+                    ]
+                ],
+                "manufacturer": "Google",
+                "model": "Pixel 2",
+                "name": "Pixel 2",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "c960e701e985df04bbed31401d3a64f3",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": "config_entry",
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "3dbf53b839cced9e9747ae092f84418e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "CDE89570-606D-4161-8A03-AF96833C99A7"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone12,1",
+                "name": "Mawmaw Juju",
+                "sw_version": "15.1",
+                "entry_type": null,
+                "id": "51bbf4471bcd4f123431ec0c676bd7ca",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": "config_entry",
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "3f190340df0dd0cc99b2cddab9c9c095"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "9EA71B49-15B1-4958-96AD-1D7B9E2CB064"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone12,1",
+                "name": "iPhone",
+                "sw_version": "15.1",
+                "entry_type": null,
+                "id": "b16a7f28c1759c0ce79eb678e12462e6",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e152ef82f08aeb589050391d560ccfc7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "16269E58-9BE8-40D9-9046-1B877697DEE6"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone12,3",
+                "name": "Aaron iPhone",
+                "sw_version": "14.8.1",
+                "entry_type": null,
+                "id": "1ed81f4d6e00d78c07c7696ff4b06ff5",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "304948144f565af75e9b09627e33f077"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "FBB350C3-5A45-4336-83E6-DE8046C20C4C"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPod9,1",
+                "name": "MaKayla\u2019s iPod touch",
+                "sw_version": "14.8.1",
+                "entry_type": null,
+                "id": "0ed6189c3deccf35052ca7ad02b67f08",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "owntracks",
+                        "jake_1plus"
+                    ]
+                ],
+                "id": "06f2547721634d7af3fad14a08f6a804",
+                "orphaned_timestamp": 1640398207.1618867
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "owntracks",
+                        "stacy_phone"
+                    ]
+                ],
+                "id": "78a9ea9ba3f4fba565e75778b3976a94",
+                "orphaned_timestamp": 1640398207.1618867
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "roku",
+                        "YG0055847302"
+                    ]
+                ],
+                "id": "070c533dcfeca0e6cd00e1aa06d05b30",
+                "orphaned_timestamp": 1640398255.7120178
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "vizio",
+                        "SAUOVABS3601400"
+                    ]
+                ],
+                "id": "294fba66fbd79df9e2bdf534e403f1a8",
+                "orphaned_timestamp": 1640398259.5215123
+            }
+        ]
+    }
+}

@@ -3966,3 +3966,119 @@ b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
 2022-01-23 15:15:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
 2022-01-23 15:15:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
 b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:20:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Running automation actions
+2022-01-23 15:20:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:20:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:20:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:20:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: jennifer\nLocation: unknown\ncurrentPostion: 103\n'
+2022-01-23 15:20:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:20:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:20:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:20:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
+2022-01-23 15:20:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:20:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:25:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Running automation actions
+2022-01-23 15:25:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:25:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:25:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:25:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: jennifer\nLocation: unknown\ncurrentPostion: 103\n'
+2022-01-23 15:25:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:25:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:25:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:25:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
+2022-01-23 15:25:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:25:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:30:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Running automation actions
+2022-01-23 15:30:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:30:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:30:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:30:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: jennifer\nLocation: unknown\ncurrentPostion: 103\n'
+2022-01-23 15:30:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:30:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:30:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:30:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
+2022-01-23 15:30:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:30:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:35:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Running automation actions
+2022-01-23 15:35:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:35:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:35:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:35:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: jennifer\nLocation: unknown\ncurrentPostion: 103\n'
+2022-01-23 15:35:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:35:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:35:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:35:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
+2022-01-23 15:35:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:35:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:40:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Running automation actions
+2022-01-23 15:40:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:40:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:40:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:40:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: jennifer\nLocation: unknown\ncurrentPostion: 103\n'
+2022-01-23 15:40:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:40:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:40:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:40:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
+2022-01-23 15:40:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:40:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:40:14 INFO (MainThread) [homeassistant.components.automation.update_savanna] Savanna location: Running automation actions
+2022-01-23 15:40:14 INFO (MainThread) [homeassistant.components.automation.update_savanna] Savanna location: Executing step call service
+2022-01-23 15:40:14 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:40:25 INFO (MainThread) [homeassistant.components.websocket_api.http.connection] [1820334016] Connection closed by client
+2022-01-23 15:40:40 INFO (MainThread) [homeassistant.components.automation.update_aaron] Aaron location: Running automation actions
+2022-01-23 15:40:40 INFO (MainThread) [homeassistant.components.automation.update_aaron] Aaron location: Executing step call service
+2022-01-23 15:40:40 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:40:50 INFO (MainThread) [homeassistant.components.websocket_api.http.connection] [1831780488] Connection closed by client
+2022-01-23 15:45:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Running automation actions
+2022-01-23 15:45:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:45:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:45:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:45:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: jennifer\nLocation: unknown\ncurrentPostion: 103\n'
+2022-01-23 15:45:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:45:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:45:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:45:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: makayla\nLocation: unknown\ncurrentPostion: 88\n'
+2022-01-23 15:45:00 INFO (MainThread) [homeassistant.components.automation.update_hands] Update everyones hands: Executing step call service
+2022-01-23 15:45:00 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: presleigh\nLocation: unknown\ncurrentPostion: 109\n'
+2022-01-23 15:45:15 INFO (MainThread) [homeassistant.components.automation.update_savanna] Savanna location: Running automation actions
+2022-01-23 15:45:15 INFO (MainThread) [homeassistant.components.automation.update_savanna] Savanna location: Executing step call service
+2022-01-23 15:45:15 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: savanna\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:45:26 INFO (MainThread) [homeassistant.components.websocket_api.http.connection] [1815060264] Connection closed by client
+2022-01-23 15:45:40 INFO (MainThread) [homeassistant.components.automation.update_aaron] Aaron location: Running automation actions
+2022-01-23 15:45:40 INFO (MainThread) [homeassistant.components.automation.update_aaron] Aaron location: Executing step call service
+2022-01-23 15:45:40 DEBUG (MainThread) [homeassistant.components.shell_command] Stdout of command: `python3 /home/homeassistant/.homeassistant/pyscript/all_in_one.py {{chan}} {{pos}}`, return code: 0:
+b'Name: aaron\nLocation: not_home\ncurrentPostion: 21\n'
+2022-01-23 15:45:51 INFO (MainThread) [homeassistant.components.websocket_api.http.connection] [1814679192] Connection closed by client

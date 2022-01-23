@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "key": "zone",
+    "data": {
+        "items": [
+            {
+                "name": "Grandparents",
+                "latitude": 30.431672255067266,
+                "longitude": -88.97413015365602,
+                "passive": false,
+                "radius": 100.0,
+                "icon": "mdi:map-marker",
+                "id": "grandparents"
+            }
+        ]
+    }
+}

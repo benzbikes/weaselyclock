@@ -1,0 +1,236 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "30862a60d8c6b82acb25417b03145ea6",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "2e590a70f0f75ed48ccfe25ccbdf2476",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "HD1905",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2022.1.1-full (1890)",
+                    "device_name": "HD1905",
+                    "manufacturer": "OnePlus",
+                    "model": "HD1905",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "da5N5cDNRViuXmRs2cXXqz:APA91bGk7mpxDJe9RwbZ2Qw-gWX7t29JNhbCA2MZC_ldSCfEZryJtGTQgmE2B1LhErQEaKqF3nOPhnhd1CkLYDJuBQrigZQmkI0vrqN3KbymhCg-SmJOOEmglgVagYC7W_Nf28XTfFas"
+                    },
+                    "device_id": "51fe5b1e5e284a6b",
+                    "webhook_id": "43b53a2c7d1192fe6164310746481d6cd6550402a5c8e045249bf1dddd59ddb5",
+                    "user_id": "92af775982e54be1be6c9fad45bc1b37"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-51fe5b1e5e284a6b",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "747af04459f224a0a49281e1b91d5af7",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Pixel 2",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.12.0-full (1796)",
+                    "device_name": "Pixel 2",
+                    "manufacturer": "Google",
+                    "model": "Pixel 2",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "cOgU4hIbTZm7tFXjpZlmdb:APA91bGYYn_rN1ieCuU4DIuB-DqbX36bVz3VYUHoF4VFQzZLeclPQIxoinLYDn22EuyWFmnkUcvnulge0-XopH7pxgcQAl0aYF7SK465YIRpQMJx8wkiyan_-RDTb-XMgPPepeb0Ku-b"
+                    },
+                    "device_id": "6f5b4c70d875e12f",
+                    "webhook_id": "5b06195e143934755d761cc46871c7bc04b860694bfa39e3d569d0dd1810efa9",
+                    "user_id": "2349f7782ad54cfeb7f728472d77143d"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-6f5b4c70d875e12f",
+                "disabled_by": "user"
+            },
+            {
+                "entry_id": "3dbf53b839cced9e9747ae092f84418e",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Mawmaw Juju",
+                "data": {
+                    "supports_encryption": true,
+                    "model": "iPhone12,1",
+                    "app_data": {
+                        "push_token": "f5RFMVyKN0Ugnam_2HMxQI:APA91bHnGjGj7GhGUPBaZBXs9o7Z24LhiT2o_fThy0FXMVP559MhjtoV1dJqUClDP94qOoC298gAEHc_CvOOG9Q1pvYFQv2u7DtS5Cgt7HMXKoHIN9MgPMTAOSPtZr5a0KCc75Cf8PKc",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "device_name": "Mawmaw Juju",
+                    "os_name": "iOS",
+                    "app_version": "2021.11.1 (2021.266)",
+                    "device_id": "CDE89570-606D-4161-8A03-AF96833C99A7",
+                    "os_version": "15.1",
+                    "app_name": "Home Assistant",
+                    "manufacturer": "Apple",
+                    "webhook_id": "1d9748d99f78e9d44ab1ce59425b3f66ad1d91c41a30e368184fda0fbcaa99bc",
+                    "secret": "a29a6d26da8a029cc74a40ee31954a719d7f1427ad49e8769f1154067c5858dc",
+                    "user_id": "7aa2825356c14a7184e51afc55993056"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-CDE89570-606D-4161-8A03-AF96833C99A7",
+                "disabled_by": "user"
+            },
+            {
+                "entry_id": "055d52f61d7389ce0b50dac386f21e2c",
+                "version": 1,
+                "domain": "ios",
+                "title": "Home Assistant iOS",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "ios",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b46695c14b6dc0af8ffcd11d6ccf2fb5",
+                "version": 1,
+                "domain": "pyscript",
+                "title": "pyscript",
+                "data": {
+                    "allow_all_imports": true,
+                    "hass_is_global": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "pyscript",
+                "disabled_by": "user"
+            },
+            {
+                "entry_id": "3f190340df0dd0cc99b2cddab9c9c095",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "iPhone",
+                "data": {
+                    "os_version": "15.1",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "device_id": "9EA71B49-15B1-4958-96AD-1D7B9E2CB064",
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "cFCRJNc7vU4Kg4ApXs_1Ku:APA91bHXarfLvlyooMl0_o0NDu3_2aJ2utfWfXzcJ7FHuVGKMlLa3tpY2p1pQ62RNc_98fb2R3Ld8PminVdPr_dlc4CQcXKE6bLxI2hqGE50aI6b6NaEY5QMYvWjRPxsf0DKAe4d0ay3"
+                    },
+                    "manufacturer": "Apple",
+                    "os_name": "iOS",
+                    "app_name": "Home Assistant",
+                    "supports_encryption": true,
+                    "device_name": "iPhone",
+                    "app_version": "2021.12.1 (2021.327)",
+                    "model": "iPhone12,1",
+                    "webhook_id": "9d128d8d905e54ccea37d161702ca5b65b35b3fb0aa00431bad7c7d13e7da32e",
+                    "secret": "4d72ebde158a4ddbc4ca9ac6033fd15f2c68c8107a8c58276de13468d4eb498a",
+                    "user_id": "dfbc1a27e8a34e69be494c04e2ff7d58"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-9EA71B49-15B1-4958-96AD-1D7B9E2CB064",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e152ef82f08aeb589050391d560ccfc7",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Aaron iPhone",
+                "data": {
+                    "supports_encryption": true,
+                    "manufacturer": "Apple",
+                    "model": "iPhone12,3",
+                    "os_name": "iOS",
+                    "device_name": "Aaron iPhone",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.12.1 (2021.327)",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "fURLDMvVl003nGIlzwMXW-:APA91bFcsa8qtj5vs_sF1jFllOF0lzA7dvskHhFd3plqXTq7aLxmSyRKzOBEfCWJHTWECWwDOK7OEvlFCVg_VekSJe8EkpTkQ-0qLYtZ1O_aXQ_lcxJOgZOql0Ul-_KB8wmrizBKyORT"
+                    },
+                    "os_version": "14.8.1",
+                    "device_id": "16269E58-9BE8-40D9-9046-1B877697DEE6",
+                    "webhook_id": "1208ed9b2cb0ae47f1490ea7e340f3eac68be5e3d97a14c41253146ff545a03b",
+                    "secret": "c24edca3cdaded108325c136ac4346d1b00265a2f49c08ef2c82879dfeec8917",
+                    "user_id": "45a2f3c6765340e8a3a066fda04d7e49"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-16269E58-9BE8-40D9-9046-1B877697DEE6",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "304948144f565af75e9b09627e33f077",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "MaKayla\u2019s iPod touch",
+                "data": {
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "cYHr2co6BEiqvrXrykVAys:APA91bHetBeOwIhhNPKiOlhsg_Vgo_ueSqC6GtLjBPOq0MlwuaVokeneKFSXj6loC47KWHFJud65wE9y9hDgOC8_Gs43KVupJS5WCM1nWsuVW7EbviFnIP5ixMOUtwkXyR_E6s8wa1y1"
+                    },
+                    "os_version": "14.8.1",
+                    "device_name": "MaKayla\u2019s iPod touch",
+                    "device_id": "FBB350C3-5A45-4336-83E6-DE8046C20C4C",
+                    "manufacturer": "Apple",
+                    "os_name": "iOS",
+                    "supports_encryption": true,
+                    "app_version": "2021.12.1 (2021.327)",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "model": "iPod9,1",
+                    "app_name": "Home Assistant",
+                    "webhook_id": "2f542640813c5febfced9225853a5566713e62a3f8eac829b0c617cd18ac7a62",
+                    "secret": "b1b9b4f06e52dfe58db135288db9786a6f81e81db7804e78451ce0d1d22e8be9",
+                    "user_id": "7549f017a91e43789cbbadbdbaf6b239"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-FBB350C3-5A45-4336-83E6-DE8046C20C4C",
+                "disabled_by": null
+            }
+        ]
+    }
+}

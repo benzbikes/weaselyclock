@@ -1,0 +1,457 @@
+{
+    "version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "92af775982e54be1be6c9fad45bc1b37",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "Jake",
+                "system_generated": false
+            },
+            {
+                "id": "45a2f3c6765340e8a3a066fda04d7e49",
+                "group_ids": [
+                    "system-users"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Aaron",
+                "system_generated": false
+            },
+            {
+                "id": "b90b7205234649f29904515e80304047",
+                "group_ids": [
+                    "system-users"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Jennifer",
+                "system_generated": false
+            },
+            {
+                "id": "dfbc1a27e8a34e69be494c04e2ff7d58",
+                "group_ids": [
+                    "system-users"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Savanna",
+                "system_generated": false
+            },
+            {
+                "id": "7549f017a91e43789cbbadbdbaf6b239",
+                "group_ids": [
+                    "system-users"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "MaKayla",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "146ea179bec6419da401b845cde3a2e3",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "jake"
+                }
+            },
+            {
+                "id": "768dea92b200433aa67b1c5f029bdf0f",
+                "user_id": "45a2f3c6765340e8a3a066fda04d7e49",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "aaron"
+                }
+            },
+            {
+                "id": "675b25abcb204e7a9ce938fc8c2cd22c",
+                "user_id": "b90b7205234649f29904515e80304047",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "jennifer"
+                }
+            },
+            {
+                "id": "08d7706181a24c11a9b619043675bbed",
+                "user_id": "dfbc1a27e8a34e69be494c04e2ff7d58",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "savanna"
+                }
+            },
+            {
+                "id": "66f151f6b4fa423b82688a3d7bee8850",
+                "user_id": "7549f017a91e43789cbbadbdbaf6b239",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "makayla"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "44702489d891406f913b515d35210812",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://10.10.10.203:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-17T05:10:18.654426+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "ea6030a74a57862bbf09bd68ab10b5b443cc3b55f1a1694f86edcce2edd79e2ace29da70309abada19b70f72cf1c111c5137410ce94fdab04e1e3778479951c0",
+                "jwt_key": "82c82a0a02069caf3dafd56ac50dc0ee6c92a83f40df3b3d4e7dcdc3d1f36e40eb3495d68c87ae1feed010265715a691d336c844564b45696adc47948f04f996",
+                "last_used_at": "2021-11-17T05:10:18.666575+00:00",
+                "last_used_ip": "10.10.10.69",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "69b77682105140048e55c0c2d4484a79",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-17T05:10:51.189135+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "12677fff073adf159983921d57fc3f193c58bb9d9f24919f29fa80949f86458d0997014c8ad4c4f3131b58d0b11fdadf4b5e64c50f5aabfb5191cbfcdf234d3b",
+                "jwt_key": "d9fbdf039a77856bccb24590ec05d9130ee71071b8881b1658e71308517a6fd904d13781f71fc47c0830bbfef35524aeebe4376c9de298379cadba61153be74d",
+                "last_used_at": "2021-11-17T05:10:51.191365+00:00",
+                "last_used_ip": "10.10.10.69",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "8ddc9bec3bb541589b15a1392b3b9979",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-17T05:11:33.278444+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "eb648ecdb2decf8fb91f33e67530412a6fa10e8d302e089775b444300089e46a8f7ab5d8c0451c6939f08754e20076d5b5f2d05b26b4c3d495e2e17fe29c026f",
+                "jwt_key": "f0110ef8bd4e2cfad6884e362acf222c727739a12f5adfba315c92d36068ab551aca7acf66701acfcee7464400097b8a8e7e0e0ddd276ab081fb3a524a71fe89",
+                "last_used_at": "2021-11-17T05:11:33.280652+00:00",
+                "last_used_ip": "10.10.10.69",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "cf867733249048a0b2945a8d23da62a2",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-17T05:11:54.394242+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "c4c70c83d58966dbb8b71574d7f3685c70892ea2632f9590135399581b395cca31b7cfa877433876ba554a5d6331c3521916146c22a80a1832ab7be2d329495f",
+                "jwt_key": "97466fd5c3fa3da68cefa82466de93412261ff2f90cfa674f6656a1a2df259ee72c68a2cc533ab444f8e5a0fd85fd866abc006f23fd63e2113b860561ce00564",
+                "last_used_at": "2021-11-17T05:11:54.406626+00:00",
+                "last_used_ip": "10.10.10.69",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "95a1f0181a6b4945b852228c2dc580c8",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://10.10.10.203:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-17T05:12:45.659840+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "18f473787ff0b65e12b13e688d48fcfe074b2d24c81c17563eb34937aab63400b96d4fb4c847279b7e0806522cb4403cb4af139e7c166d1bcba01eeeca06c594",
+                "jwt_key": "bb15e793563f70b7cb0986704a9f613bb797d781b1cbce2acf63f01c5242738f3868caccad87e8e1b0345d8ba96d426434ece0c7b4b0a8c04acc17b6df848b94",
+                "last_used_at": "2021-11-17T05:44:30.890574+00:00",
+                "last_used_ip": "10.10.10.69",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "d79972cac85449ca823a8c6848fa444e",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero.jakeellis.duckdns.org:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-17T14:03:05.777207+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "07103dd248adc18927c18f5aa5f42e130a4359bd7802b005551f8cf48e989d1c48052e057846663a3d6988b5d28adcd549486fc23c4dd095d5bdd6382eb15420",
+                "jwt_key": "3578643ad69b1eb29c23d01b9dd37f1ce77c87c2237eb8635005267fa978315f13875b1cb736c0fa5004a7115762fe7cb6f541c1fb49986d77248a2265365fb3",
+                "last_used_at": "2021-11-18T17:52:40.768215+00:00",
+                "last_used_ip": "207.222.59.210",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "42f67b2d113b4109bfcc2047a5ab6e0b",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T00:43:48.887682+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "2107b1fe1fe180dbe4facbb24553240a6d3481a809470976388d9b5dbbf58af3fdc95b6e46a5a6a3abcbbb09c99a40a1e3cbba9d574008959c5594161e9b226b",
+                "jwt_key": "6a2c437c0b8514ac5d80d937db184c451787169d45eb61fa0fb73b66493f7aea70dab87cc40d56102cce2ac4ce5f5707568bff053b666fe0955495e87fb294bc",
+                "last_used_at": "2021-11-18T00:43:48.889457+00:00",
+                "last_used_ip": "10.10.10.4",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "39dea59ce55d4a00919ce117147d893b",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T00:45:27.870337+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "b870417f1cae5fd78dc84edd64f8ea43542e1367d71e7843e30a01fac5156d8e701041cd95edb07479de0aa64c73dae9cf004775f9d5e49d007a446fa257c01b",
+                "jwt_key": "b356cf858903befce316396ac0d3f1387c650451b45cd00740ee54a9f72fea93d34b34ed126977ab6e7c65fc4a8333d09b25f4a25400b2d1742c6f4b7e975f00",
+                "last_used_at": "2021-11-18T00:45:27.872562+00:00",
+                "last_used_ip": "10.10.10.4",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "9636255204874d729efec2c505ed91d7",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://pizero:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T00:46:23.206800+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "bada0fa853a3a74aee7d9e5a782b2310d148c90e8ab4320d60cfd7b8e732ffc34ce129465adf51cec093a79e7993120815ba17097e6bb508a3b9a7b8399c828d",
+                "jwt_key": "8b5fe6371e6d3042b30c0d32df024964949d96151fc36aa6005e8359301e4c2796e4b91adcf3b11bf350f112fc0a114e1df09668e3a0c3835713fc0559dd49ac",
+                "last_used_at": "2021-11-18T00:46:23.209032+00:00",
+                "last_used_ip": "10.10.10.4",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "26bd9aa7fff4469b8089c8ddeb40ae95",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://weasley.duckdns.org:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T02:16:40.212383+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "bc2c2ce25790c648a2838c6cf967eb31817b3ee57ed0fd59a8979a4f6f33ba672113ff10cb786a7377a414f62aefb0cba483b9364708246d5fdbee2f13c3a8d0",
+                "jwt_key": "aafb85563bde03e31c5335df97486ab2ecee92ca391f40084518a59acd373ebdd4584bf4350b2ef5dd30c95c482669c1fd87ccd16e00071a37a6a0cec82c99bc",
+                "last_used_at": "2021-12-25T03:44:13.791358+00:00",
+                "last_used_ip": "10.10.10.1",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "ba6dff709e664efbab4ed55c86e6707c",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T03:14:49.701506+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "259d5ae3def8056f7388d955979e825b7ac6f4d4e85e773b45f8f1233dfbf5a608f99f66f8baa1969aeba416097f79a4a78bc3d5fca3500aa46ed9a1b49d0936",
+                "jwt_key": "6eebd3cfb785bc9f84ec38064b809f339c9ab4a348bd7fd1779a0da9f1f055603ed09357e65a5dc79528f8ebdde372f8479000d48f13199bc8a7d7b69b4cfee6",
+                "last_used_at": "2022-01-23T20:30:19.557531+00:00",
+                "last_used_ip": "45.29.37.7",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "4039a136e6164afab56c07c97351c9e9",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://weasley.duckdns.org:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T04:17:20.744448+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "cf56f8e0979bc902dd1082f6a0e707ff3f51428e06dda316d34b99ccdc0121dce70f98af3565247e5ee044c25e1c6284dd3436d724a3c3111db5a55cc154374c",
+                "jwt_key": "45039b10724997539a9e1c43a0adf3e033076804b93acadb1794cbb8bd8475f26bf97c6bd812a4a22f8d265e46aa45a3fbe9eca928a11e3335ae6c067f08cad8",
+                "last_used_at": "2021-11-19T04:10:29.232497+00:00",
+                "last_used_ip": "10.10.10.1",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "96416ed9f6e74e93a9aac7aeb74c1b7f",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://weasley.duckdns.org:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-18T14:02:06.180280+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "289e53ea06aac63b37767e30800807f4d830a80d875226806c9f9b513568578e635ae10e01984e237a0aee11aac190b57d5f76275c667ab434d4320d6759eec4",
+                "jwt_key": "0843105b3c43df9f892c6540c792c4a0dc80db2818714448157669ea5ee366d0a6edfab51114f66eb501f52a950ad88d524218314b570dedd1830b85b9bd4a03",
+                "last_used_at": "2021-12-22T19:37:30.216349+00:00",
+                "last_used_ip": "207.222.59.210",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "4bd008790c1b4850ab7bb641e338c927",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://weasley.duckdns.org:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-28T19:34:00.199435+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "10714f9b856d225f11faa2d1decd108fac3459b25c28c3d82d5d23db8492f461e5ed23e016d86474c67ce40cdcfb3c24959b84e5eb45401ab309dc99df9dbfc1",
+                "jwt_key": "a37d127cbf323a0bd9dccfd58514d5f7fd3f6d3a981ee5600b6111d51a2293ea627252e557f7ab672542f570e08ed039e0dcef6c50ce1a2dd427ba5067de7a07",
+                "last_used_at": "2022-01-23T00:50:28.107074+00:00",
+                "last_used_ip": "159.118.158.161",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "85b90ad63e04430ca561dde28cb9988e",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://10.10.10.203:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-28T19:57:29.966021+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "260e27f352e2d1b711fcb163d9245d4d7d0e8e8cbdaeb0c8d6dbab1be5c6bb5f0b0405d89807ea0a48615aee3cc5d6380fd6edd465236d916ef6f9147456922c",
+                "jwt_key": "e930a501cdc87a353c1cef553c7d27ceda877676423b7d3c2f2e4af9808e3338a969d58afa1e03012627a85730b4c78b628510fbe4b1932f6ebc059027610e08",
+                "last_used_at": "2021-11-28T19:57:29.968356+00:00",
+                "last_used_ip": "10.10.10.69",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "340627a1ced04fb3b9c5732b240ae291",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://hass-harry-potter-clock.glitch.me",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-28T21:05:24.376460+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "1e136f4df1d0e329e95cb1492b758b1032382d9fc9224d0cd67bb71f870464a8fb3402736369e4d255b41efd42ca7191b2a898d74d8883029fdc8e0985c6f6e5",
+                "jwt_key": "4d9f79fd8ee54f3aa43ea01b97425a6ddfb7801f508eee4daa0f4d8748f195789cbed7fe8a21574e163d199abf9d4a858f451aae86fbf448ff66f645fd5c37cf",
+                "last_used_at": "2021-11-28T21:05:24.379391+00:00",
+                "last_used_ip": "10.10.10.1",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "88256a37cd394cca9e222c41d666a3d3",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://hass-harry-potter-clock.glitch.me",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-28T21:15:43.464467+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "4b9a35788dd10c55f5bbc67ddcb32b365dde55788fc7ba385078ca457aabab47d1f903cc7527cd410313bf15431de2028c9569eb0b61fd838053e6a4172492ee",
+                "jwt_key": "b8e450e826390c5e20e4d699a43cdbbe5726b1441dcb4f5a6ffac5f922e46d33a07ba7e62d46b0b4d55eda5d4410951bf917a2d87602a6adfb054346047088c5",
+                "last_used_at": "2021-11-28T21:15:43.467698+00:00",
+                "last_used_ip": "10.10.10.1",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "61c9270111364526a8d10263cf413d37",
+                "user_id": "92af775982e54be1be6c9fad45bc1b37",
+                "client_id": "http://weasley:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-12-14T05:47:39.298935+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "d87a52767d4c02fdadb1019cad983b3495956a08ad431d6a4e8eaae2f59217bd5e8b4df8272d82a2798495dbf52f6ceecaf52a6943eab1ce48336b8bb57feebd",
+                "jwt_key": "570698f278f2494291df6d75404c231d67de30a2c3c86e13acc5f11b87d07e908961f9d5eaf7e651c536ee69b9c2ff8807e37378b66fd6c4fee15202c215a2c3",
+                "last_used_at": "2021-12-15T19:33:04.728765+00:00",
+                "last_used_ip": "10.10.10.63",
+                "credential_id": "146ea179bec6419da401b845cde3a2e3",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "e02993b13c0e46168cfae385c6a0fbac",
+                "user_id": "45a2f3c6765340e8a3a066fda04d7e49",
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-01-23T00:48:29.678211+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "eeaf219859a679bf50aef841025c782fc0c694f06eb5ae80a0fd631738c07a1732e57382ed08ad4ed59ac8b4f79f03ee1001965f27449104890dc342e9cbc99c",
+                "jwt_key": "b2e5f8b2384877c8519b971696f0280f1a9d142f221e366892a88c58bda512acf668ba7534b4d679bf24d6abfd76ae9fc4bfc4694e11ad679d062506f94dd7fb",
+                "last_used_at": "2022-01-23T21:40:40.547393+00:00",
+                "last_used_ip": "50.86.51.88",
+                "credential_id": "768dea92b200433aa67b1c5f029bdf0f",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "b5c71b4e899b4f3ba76f0c1d9d49a1ee",
+                "user_id": "dfbc1a27e8a34e69be494c04e2ff7d58",
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-01-23T00:20:45.503371+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "f7f14be2ac5ac88ec7ad2dd8f069eb179e586cd3b7193fd2078f4a1953977db8d7b44b76633d9f665648bee685c3fa4b8678e3466fb9c88def8b7c770992fd8c",
+                "jwt_key": "d006441f842bc66c3964703cda691681ae634112c8f2da9fa77fe76718e69b9e4ce82ddfc1f0bd5eac717d83044c335aa4746144f255b688e98a75055099eb31",
+                "last_used_at": "2022-01-23T21:40:14.870732+00:00",
+                "last_used_ip": "50.86.52.179",
+                "credential_id": "08d7706181a24c11a9b619043675bbed",
+                "version": "2021.11.4"
+            },
+            {
+                "id": "f112563f178b4fe096ce09b42120f77d",
+                "user_id": "7549f017a91e43789cbbadbdbaf6b239",
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-01-23T02:07:14.474609+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "9e566d8bcac37716831bd676d6f3b0524217d4910496a9947df24c5190e356d86221d57b9ee4b93bd092db1dc94eeec9dc825e5f27c61b7fbf10d95398b4e079",
+                "jwt_key": "f89ab31ba8dbc1d277028eb0c2f44feb677169f0bc611000f76c3113f5ae43b06d65bf29fc5d96c4ebb6295ba76ad9d10d830a4b3796ab12bbeb320197aebcce",
+                "last_used_at": "2022-01-23T05:38:25.937330+00:00",
+                "last_used_ip": "159.118.158.161",
+                "credential_id": "66f151f6b4fa423b82688a3d7bee8850",
+                "version": "2021.11.4"
+            }
+        ]
+    }
+}
